@@ -1,4 +1,3 @@
 public String whichTwo(Integer a, Integer b, Integer c) {
-    if whichTwo=a + b=c
-    else whichTwo=c
+    return  a + b == c ? 'c' : ((a + c == b) ? 'b' : b + c == a ? 'a' : '');
 }
