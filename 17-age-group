@@ -8,4 +8,9 @@ public String ageGroup(Integer n) {
     else if (n >= 2 and n<=14 ){
     return 'Child';
  }
+ else {
+
+        return null;
+
+    }
 }
