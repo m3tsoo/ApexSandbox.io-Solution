@@ -1,6 +1,6 @@
 public Boolean isLeapYear(Integer year) {
     //code here
-Boolean isLeapYear= Math.mod(year,4)
-if (year==1900) {return isLeapYear==false};
+if Math.mod(year,4)!=0
+{return isLeapYear==false;}
   }
 
