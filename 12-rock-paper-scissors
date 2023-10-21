@@ -13,12 +13,12 @@ public Integer rockPaperScissors(String player1, String player2) {
         (player1=='rock' && player2=='scissors') || 
         (player1=='paper' and player2=='rock'))
         {
-            return 1;
+            return 2;
             }
            else if ((player2=='scissor' && player1=='paper') || 
             (player2=='rock' && player1=='scissor') || 
             (player2=='paper' and player1=='rock'))
 {
-            return 2;
+            return 1;
             }
 }
