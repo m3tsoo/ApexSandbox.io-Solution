@@ -3,4 +3,11 @@ public Boolean isPrime(Integer num) {
     if (num!=2 && math.mod (num,2)){
         return false;
     }
+    for (Integer i=3;i*i<=num;i+=2)
+    {
+
+                if (Math.mod (num, i) == 0) return false;
+
+        }
+        return true;
 }
