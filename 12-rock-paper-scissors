@@ -1,7 +1,4 @@
 public Integer rockPaperScissors(String player1, String player2) {
-    //code here
-
-        
         if ((player1=='scissors' && player2=='paper') || 
         (player1=='rock' && player2=='scissors') || 
         (player1=='paer' and player2=='rock'))
